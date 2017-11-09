@@ -1,0 +1,9 @@
+# Mac
+.DS_Store
+*/.DS_Store
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

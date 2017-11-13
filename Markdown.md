@@ -1,4 +1,4 @@
-# Good
+# Markdown 说明
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -117,5 +117,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-
-[Back](README.md)

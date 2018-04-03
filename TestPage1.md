@@ -1,8 +1,8 @@
-# 测试页面2
-
 ---
 layout: default
 ---
+
+# 测试页面2
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

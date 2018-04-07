@@ -33,12 +33,6 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
       <section>
-        <h1>My Posts</h1>
-        <ul>
-          {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
       </section>
       <footer>
         <p><small>Power by GitHub Pages &amp; <a href="https://github.com/orderedlist">orderedlist</a></small></p>

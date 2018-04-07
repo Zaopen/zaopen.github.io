@@ -1,11 +1,13 @@
 ---
-layout: default
-title: TestPage1
+layout: post
+title: FinalTest
 ---
 
-# 测试页面1：Markdown 说明
+# 测试页面2：Markdown 说明
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](another-page).
 
 There should be whitespace between paragraphs.
 

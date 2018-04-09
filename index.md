@@ -4,6 +4,8 @@ title: 测试页面3
 ---
 
 # 测试页面3
+[SingalTest](posts/singaltest.md)
+[FinalTest](posts/finaltest.md)
 
-[SingalTest](2018-04-03-SingalTest.md)
-[FinalTest](2018-04-07-FinalTest.md)
+[SingalTest](posts/singaltest.md)，
+[FinalTest](posts/finaltest.md)。

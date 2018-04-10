@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 测试页面3
+title: hello
 date: 2018-04-10 12:00
 categories: tests
 ---
 
-# 测试页面3
-
-测试页面1：[SingalTest](posts/singaltest)  
-测试页面2：[FinalTest](posts/finaltest)
+# Hello
+小站还在建设中，客观先随便看看吧~  
+附：[Markdown语法示例](posts/testfile)

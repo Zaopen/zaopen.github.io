@@ -1,13 +1,13 @@
 ---
 layout: post
-title: FinalTest
+title: Markdown 示例
 date: 2018-04-05 16:00
 categories: tests
 ---
 
 [< 返回](..)
 
-# 测试页面2：Markdown 说明
+# Markdown 示例
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

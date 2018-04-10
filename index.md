@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 测试页面3
 date: 2018-04-10 12:00
 categories: tests

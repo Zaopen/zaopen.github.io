@@ -5,7 +5,7 @@ date: 2018-04-04 15:00
 categories: tests
 ---
 
-[< 返回](index)
+[< 返回](..)
 
 # 测试页面1：Code & images
 
@@ -56,4 +56,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-[< 返回](index)
+[< 返回](..)

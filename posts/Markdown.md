@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Markdown 示例
+title: Markdown 语法示例
 date: 2018-04-05 16:00
 categories: tests
 ---
 
 [< 返回](..)
 
-# Markdown 示例
+# Markdown 语法示例
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

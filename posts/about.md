@@ -20,4 +20,4 @@ ZELDA无脑粉，热爱羽毛球，喜欢独立游戏，对JS有兴趣。
 托管平台：[GitHub Page](https://pages.github.com/)
 主题模板：原作者 [orderedlist](https://github.com/orderedlist)，修改自 [The Minimal theme](https://github.com/pages-themes/minimal)
 
-[< 返回](./index)
+[< 返回](./)

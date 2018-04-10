@@ -1,11 +1,11 @@
 ---
 layout: default
 title: 测试页面3
+date: 2018-04-10 12:00
+categories: tests
 ---
 
 # 测试页面3
-[SingalTest](posts/singaltest.md)
-[FinalTest](posts/finaltest.md)
 
-[SingalTest](posts/singaltest.md)，
-[FinalTest](posts/finaltest.md)。
+测试页面1：[SingalTest](posts/singaltest)
+测试页面2：[FinalTest](posts/finaltest)

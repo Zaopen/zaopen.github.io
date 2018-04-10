@@ -1,11 +1,15 @@
 ---
 layout: post
 title: FinalTest
+date: 2018-04-05 16:00
+categories: tests
 ---
 
-[返回](./)
+[< 返回](index)
 
 # 测试页面2：Markdown 说明
+
+[前往](###Smallimage)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -99,6 +103,8 @@ end
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
+[回顶部](#测试页面2Markdown说明)
+
 ### Large image
 
 ![](https://guides.github.com/activities/hello-world/branching.png)
@@ -125,4 +131,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-[返回](./)
+[< 返回](index)

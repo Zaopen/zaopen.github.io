@@ -30,7 +30,7 @@
     <div class="wrapper">
       <header>
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo"></img>
+          <img src="{{ site.logo | relative_url }}" alt="Logo"></img>
         {% endif %}
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -39,7 +39,7 @@
         {{ content }}
       </section>
       <footer>
-        <p><small><a href="{{ '/_posts/about.md' | relative_url }}">关于</a></small></p>
+        <p><small><a href="{{ '/posts/about' | relative_url }}">关于</a></small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>

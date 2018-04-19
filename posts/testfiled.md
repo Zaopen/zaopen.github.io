@@ -2,7 +2,7 @@
 layout: post
 title: TestfileD
 date: 2018-04-20
-categories: tests
+tags: tests
 ---
 
 ### And an ordered list:

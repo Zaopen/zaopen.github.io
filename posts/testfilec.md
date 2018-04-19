@@ -2,7 +2,7 @@
 layout: post
 title: TestfileC
 date: 2018-04-19
-categories: tests
+tags: tests
 ---
 
 ###### [](#header-6)Header 6

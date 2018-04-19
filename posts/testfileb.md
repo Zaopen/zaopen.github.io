@@ -2,7 +2,7 @@
 layout: post
 title: TestfileB
 date: 2018-04-18
-categories: tests
+tags: tests
 ---
 
 # [](#header-1)Header 1

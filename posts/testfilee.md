@@ -2,7 +2,7 @@
 layout: post
 title: TestfileE
 date: 2018-04-21
-categories: tests
+tags: tests
 ---
 
 ### Small image

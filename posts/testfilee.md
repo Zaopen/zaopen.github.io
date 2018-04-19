@@ -37,4 +37,4 @@ The final element.
 
 [< 上一页](testfiled)
 
-[<< 回首页](./index)
+[<< 回首页](..)

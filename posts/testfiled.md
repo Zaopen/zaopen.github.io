@@ -32,4 +32,4 @@ categories: tests
 
 [> 下一页](testfilee)
 
-[<< 回首页](./index)
+[<< 回首页](..)

@@ -46,4 +46,4 @@ end
 
 [< 返回](..)
 
-[> 下一页](posts/testfilec)
+[> 下一页](testfilec)

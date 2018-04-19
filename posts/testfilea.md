@@ -17,4 +17,4 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 [< 返回](..)
 
-[> 下一页](posts/testfileb)
+[> 下一页](testfileb)

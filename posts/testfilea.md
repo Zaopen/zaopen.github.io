@@ -17,4 +17,4 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 [> 下一页](testfileb)
 
-[<< 回首页](index)
+[<< 回首页](./index)

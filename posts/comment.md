@@ -3,6 +3,7 @@ layout: post
 title: 评论政策
 date: 2018-04-19
 tags: others
+comments: true
 ---
 
 ```

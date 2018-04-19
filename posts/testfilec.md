@@ -25,6 +25,6 @@ categories: tests
 *   Item baz
 *   Item zip
 
-[< 返回](..)
+[< 返回](./)
 
 [> 下一页](testfiled)

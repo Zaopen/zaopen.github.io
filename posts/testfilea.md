@@ -15,6 +15,6 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 测试段落.
 
-[< 返回](..)
+[< 返回](./)
 
 [> 下一页](testfileb)

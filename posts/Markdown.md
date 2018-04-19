@@ -5,7 +5,7 @@ date: 2018-04-05 16:00
 categories: tests
 ---
 
-[< 返回](..)
+[< 返回](./)
 
 # Markdown 语法示例
 
@@ -127,4 +127,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-[< 返回](..)
+[< 返回](./)

@@ -64,12 +64,14 @@
             <p>{{ site.description | default: site.github.project_tagline }}</p>
         </header>
         <section>
-            {{ content }} {% if page.comments %}
+            {{ content }}
+            {% if page.comments %}
             <div id="disqus_thread"></div>
             <script>
-            /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+            */
             /*
             var disqus_config = function () {
             this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
@@ -79,29 +81,16 @@
             (function() { // DON'T EDIT BELOW THIS LINE
                 var d = document,
                     s = d.createElement('script');
-                s.src = 'https://zaopen.disqus.com/embed.js';
+                s.src = 'https://zaopen-blog.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
-            // Adds the onNewComment callback to the disqus_config of the embed code
-            // that sends 'New Comment' events over to Google Analytics.
-            // The callback can also be used for any other analytics service like Parse.ly, Chartbeat, Mixpanel
-            var disqus_config = function() {
-                this.callbacks.onNewComment = [function(comment) {
-                    ga('send', {
-                        'hitType': 'event', // Required.
-                        'eventCategory': 'Comments', // Required.
-                        'eventAction': 'New Comment', // Required.
-                        'eventLabel': '新评论'
-                    });
-                }];
-            };
             </script>
             <noscript>评论功能由 <a href="https://disqus.com/?ref_noscript">Disqus</a> 提供，需要启用 Javascript 才能进行评论。</noscript>
             {% endif %}
         </section>
         <footer>
-            <p><small><a href="{{ '/posts/about' | relative_url }}">关于</a> <a href="{{ '/posts/comment' | relative_url }}">评论政策</a></small></p>
+            <p><small><a href="{{ '/posts/about' | relative_url }}">关于</a>  <a href="{{ '/posts/comment' | relative_url }}">评论政策</a></small></p>
         </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>

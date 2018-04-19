@@ -64,8 +64,7 @@
             <p>{{ site.description | default: site.github.project_tagline }}</p>
         </header>
         <section>
-            {{ content }}
-            {% if page.comments %}
+            {{ content }} {% if page.comments %}
             <div id="disqus_thread"></div>
             <script>
             /**
@@ -84,6 +83,19 @@
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
+            // Adds the onNewComment callback to the disqus_config of the embed code
+            // that sends 'New Comment' events over to Google Analytics.
+            // The callback can also be used for any other analytics service like Parse.ly, Chartbeat, Mixpanel
+            var disqus_config = function() {
+                this.callbacks.onNewComment = [function(comment) {
+                    ga('send', {
+                        'hitType': 'event', // Required.
+                        'eventCategory': 'Comments', // Required.
+                        'eventAction': 'New Comment', // Required.
+                        'eventLabel': '新评论'
+                    });
+                }];
+            };
             </script>
             <noscript>评论功能由 <a href="https://disqus.com/?ref_noscript">Disqus</a> 提供，需要启用 Javascript 才能进行评论。</noscript>
             {% endif %}

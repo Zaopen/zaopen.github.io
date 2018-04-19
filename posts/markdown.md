@@ -2,7 +2,7 @@
 layout: post
 title: Markdown 语法示例
 date: 2018-04-05
-tags: tests markdown
+tags: tests, markdown
 ---
 
 [<< 回首页](..)

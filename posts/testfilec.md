@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TestfileC
-date: 2018-04-17
+date: 2018-04-19
 categories: tests
 ---
 
@@ -25,6 +25,8 @@ categories: tests
 *   Item baz
 *   Item zip
 
-[< 返回](./)
+[< 上一页](testfileb)
 
 [> 下一页](testfiled)
+
+[<< 回首页](index)

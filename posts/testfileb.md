@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TestfileB
-date: 2018-04-17
+date: 2018-04-18
 categories: tests
 ---
 
@@ -44,6 +44,8 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-[< 返回](./)
+[< 上一页](testfilea)
 
 [> 下一页](testfilec)
+
+[<< 回首页](index)

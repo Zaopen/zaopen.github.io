@@ -3,6 +3,7 @@ layout: post
 title: 关于
 date: 2018-04-09
 tags: others
+comments: true
 ---
 
 ## 我

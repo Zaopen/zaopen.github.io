@@ -1,12 +1,11 @@
 @import "{{ site.theme }}";
 
-.footer_first {
+.foot li:first-child {
 	display: inline-block;
-	padding: 0 10px;
-	border-left: 1px solid #e7e7eb;
+	padding-left: 0;
 }
 
-.footer_item {
+.foot li {
 	display: inline-block;
 	padding: 0 10px;
 	border-left: 1px solid #e7e7eb;

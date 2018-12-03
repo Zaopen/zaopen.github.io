@@ -19,7 +19,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 测试段落。
 
-![小程序测试图片](miniapp.png)
+![小程序测试图片](/assets/img/miniapp.png)
 
 [下一页 >](testfileb)
 

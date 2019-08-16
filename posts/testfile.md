@@ -2,7 +2,7 @@
 layout: post
 title: TestfileA
 date: 2018-04-17
-tags: tests
+tags: 测试
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

@@ -3,9 +3,9 @@ layout: default
 comments: true
 ---
 
-<!-- <small>{{ page.date | date: "%-d %B %Y" }}</small>
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
- -->
+
  
 {{ content }}
 
@@ -13,7 +13,7 @@ comments: true
 <small>分类于：<em>{{ page.tags | join: "</em> - <em>" }}</em></small> {% endif %}
 
 {% if page.comments %}
-<!-- <div id="gitalk-container"></div> -->
+<div id="gitalk-container"></div>
 <script type="text/javascript">
   var gitalk = new Gitalk({
   clientID: '6b96a9130f9f49852167',
@@ -24,7 +24,7 @@ comments: true
   id: location.pathname,      // Ensure uniqueness and length less than 50
   distractionFreeMode: false  // Facebook-like distraction free mode
 })
-// gitalk.render('gitalk-container')
+gitalk.render('gitalk-container')
 </script>
 <!-- <div id="disqus_thread"></div>
 <script>

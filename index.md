@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Hello
-date: 2019-08-26 12:00
+title: 小站还在建设中，客观先随便看看吧~ 
+date: 2019-09-24 12:00
 ---
 
-小站还在建设中，客观先随便看看吧~  
 附：[Markdown 语法示例](posts/markdown)  
 
 ## 2019-09-19

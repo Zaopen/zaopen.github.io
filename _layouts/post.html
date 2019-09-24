@@ -8,7 +8,7 @@ comments: true
 {% if page.tags %}
 <small>分类于：<em>{{ page.tags | join: "</em> - <em>" }}</em></small> {% endif %}
 {% if page.comments %}
-<div id="gitalk-container"></div>
+<!-- <div id="gitalk-container"></div>
 <script type="text/javascript">
 var gitalk = new Gitalk({
     clientID: '6b96a9130f9f49852167',
@@ -20,8 +20,8 @@ var gitalk = new Gitalk({
     distractionFreeMode: false // Facebook-like distraction free mode
 })
 gitalk.render('gitalk-container')
-</script>
-<!-- <div id="disqus_thread"></div>
+</script> -->
+<div id="disqus_thread"></div>
 <script>
 /*
  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -41,7 +41,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
     (d.head || d.body).appendChild(s);
 })();
 </script>
-<noscript>评论功能由 <a href="https://disqus.com/?ref_noscript">Disqus</a> 提供，需要启用 Javascript 才能进行评论。</noscript> -->
+<noscript>评论功能由 <a href="https://disqus.com/?ref_noscript">Disqus</a> 提供，需要启用 Javascript 才能进行评论。</noscript>
 {% endif %}
 <!-- 
 <div id="related">

@@ -5,8 +5,6 @@ date: 2018-04-05
 tags: markdown
 ---
 
-[<< 回首页](..)
-
 # Markdown 语法示例
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

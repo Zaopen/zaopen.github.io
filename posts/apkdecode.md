@@ -52,7 +52,8 @@ keytool -genkey -v -alias <别名> -keyalg <加密算法> -validity <有效期> 
 
 ## 六、自签名
 执行命令：
-```jarsigner -verbose -keystore <密钥绝对路径> -signedjar <签名后apk存放路径> <签名前apk绝对路径> <密钥别名>
+```
+jarsigner -verbose -keystore <密钥绝对路径> -signedjar <签名后apk存放路径> <签名前apk绝对路径> <密钥别名>
 ```
 完成。
 

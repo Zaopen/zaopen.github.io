@@ -11,7 +11,7 @@ comments: true
 官网下载：https://www.oracle.com/java/technologies/downloads/
 
 ## 二、apktool反编译工具
-官网下载：https://ibotpeaches.github.io/Apktool/install/
+官网下载：https://ibotpeaches.github.io/Apktool/install/  
 建议使用macOS对应的第一种安装教程，另一种Homebrew版本的容易出现找不到HOMEBREW_JAVA的问题，尝试了各种环境配置都没找到解决方法。
 
 ## 三、反编译
@@ -19,8 +19,7 @@ comments: true
 执行命令：`cd <apk文件所在目录>`
 快捷方法是"cd "(有一个空格，下同)，然后拖拽文件到终端，然后删掉文件名到最后一个"/"，回车。
 
-### 反编译
-执行命令：`apktool d <apk绝对路径>`
+然后执行反编译命令：`apktool d <apk绝对路径>`
 绝对路径那里，直接拖拽apk到终端更快捷。
 有些电脑可能需要sudo权限，可以在上方命令前加上"sudo "。
 之后就可以改文件夹里的文件了。

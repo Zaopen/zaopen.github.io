@@ -6,7 +6,7 @@ tags: 技术
 comments: true
 ---
 
-![图例](/assets/img/learncst.png)
+![图例](/assets/img/cst.png)
 
 _细小之处，也能进步。_
 

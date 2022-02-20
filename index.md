@@ -25,7 +25,7 @@ title: 日常记录
 [代收/代扣区别](posts/tax)
 
 ## 2019-08-07 
-[简单了解cookie、session、token](posts/learncst)
+[简单了解cookie、session、token](posts/cst)
 
 ## 2019-08-02 
 [冲正交易学习](posts/reverse)

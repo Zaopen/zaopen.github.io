@@ -13,7 +13,7 @@ title: 日常记录
 [微信支付普通商户和特约商户](posts/wechatpay)
 
 ## 2019-09-29
-[权限管理二三事](posts/permission.md)
+[权限管理二三事](posts/permission)
 
 ## 2019-09-19
 [多通道短信平台](posts/message)
@@ -25,7 +25,7 @@ title: 日常记录
 [代收/代扣区别](posts/tax)
 
 ## 2019-08-07 
-[简单了解 cookie、session、token](posts/learnCST)
+[简单了解cookie、session、token](posts/learncst)
 
 ## 2019-08-02 
 [冲正交易学习](posts/reverse)

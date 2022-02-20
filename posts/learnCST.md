@@ -6,9 +6,7 @@ tags: 技术
 comments: true
 ---
 
-[<< 回首页](..)
-
-![cookie、session、token](/assets/img/learncst.png)
+![图例](/assets/img/learncst.png)
 
 _细小之处，也能进步。_
 

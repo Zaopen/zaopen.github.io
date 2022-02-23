@@ -4,7 +4,7 @@
   var style2 = 'color:auto;'
   var welconme = ' 欢迎来到澡盆家'
   console.info('%c Hi~ %c' + welconme, style1, style2)
-  console.info('主题作者：https://github.com/TMaize/tmaize-blog')
+  console.info('主题来源：https://github.com/TMaize/tmaize-blog/')
 })()
 
 /**

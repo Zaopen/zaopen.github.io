@@ -10,13 +10,13 @@ title: 搜索
     <img src="{{site.baseurl}}/static/img/loading.svg">
   </h1>
   <ul class="list-search">
-    {%- for post in site.posts  %}
+    {% for post in site.posts  %}
     <li hidden>
       <a href="{{site.baseurl}}{{ post.url }}">
         <p class="title">{{ post.title }}</p>
         <p class="content"></p>
       </a>
     </li>
-    {%- endfor %}
+    {% endfor %}
   </ul>
 </div>

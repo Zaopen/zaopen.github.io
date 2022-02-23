@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: mypost
 title: SSH密钥生成
 date: 2022-02-19
-tags: 技术
-comments: true
+categories: 技术
+comments: false 
 ---
 
 macOS的话直接用终端就能操作，windows的话要装一个Git Bash。  

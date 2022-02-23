@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: mypost
 title: 多通道短信平台
 date: 2019-09-19
-tags: 产品
-comments: true
+categories: 产品
+comments: false 
 ---
 
 最近新入职一家做社保支付相关的公司，某天忽然被安排接手了一个POS对账异常的调整需求，虽然开始一脸懵逼，但过程学到了不少对账知识。
@@ -20,4 +20,3 @@ comments: true
 
 _细小之处，也能进步。_
 
-[<< 回首页](..)

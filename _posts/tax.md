@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: mypost
 title: 代收代扣区别
 date: 2019-08-16
-tags: 税务
-comments: true
+categories: 税务
+comments: false 
 ---
 
 ## 代扣代缴
@@ -14,4 +14,3 @@ comments: true
 
 _细小之处，也能进步。_
 
-[<< 回首页](..)

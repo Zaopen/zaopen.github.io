@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: mypost
 title: 权限管理二三事
 date: 2019-09-29
-tags: 工作
-comments: true
+categories: 工作
+comments: false 
 ---
 
 前两天做一个商家前段权限控制功能，学到点东西。
@@ -28,4 +28,3 @@ comments: true
 
 _细小之处，也能进步。_
 
-[<< 回首页](..)

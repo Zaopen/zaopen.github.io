@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: mypost
 title: apk反编译、重编译和自签名
 date: 2022-02-17
-tags: 技术
-comments: true
+categories: [技术]
+comments: false 
 ---
 
 ## 一、JAVA环境配置
@@ -59,4 +59,3 @@ jarsigner -verbose -keystore <密钥绝对路径> -signedjar <签名后apk存放
 
 _细小之处，也能进步。_
 
-[<< 回首页](..)

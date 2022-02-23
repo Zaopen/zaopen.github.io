@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: mypost
 title: 冲正交易
 date: 2019-08-02
-tags: 交易
+categories: 交易
 ---
 
 ## 冲正
@@ -21,4 +21,3 @@ tags: 交易
 
 _细小之处，也能进步。_
 
-[<< 回首页](..)

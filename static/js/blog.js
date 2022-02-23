@@ -1,5 +1,5 @@
 // 打印主题标识,请保留出处
-;(function () {
+(function () {
   var style1 = 'background:#4BB596;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
   var author = ' TMaize'

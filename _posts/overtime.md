@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: mypost
 title: 尴尬加班
 date: 2018-05-25
-tags: 工作
-comments: true
+categories: 工作
+comments: false 
 ---
 
 ## 起因
@@ -23,4 +23,3 @@ comments: true
 现在是周一凌晨，今天就要做下一个版本了，然而我现在需求都还没写，真是HAPPY = =
 还有就是，作为创业公司的一员，在关键节点时，为什么都没有周末加班也要完成工作的觉悟？我来了一家假创业公司？
 
-[<< 回首页](..)

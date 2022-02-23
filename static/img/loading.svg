@@ -10,11 +10,11 @@
       }
       .m-loading-icon .m-loading-icon-bg-path{
         fill: none;
-        stroke: #F2F2F2;
+        stroke: #F9F9F9;
       }
       .m-loading-icon .m-loading-icon-active-path{
         fill: none;
-        stroke: #666666;
+        stroke: #4990E2;
         transform-origin: 50% 50%;
       }
       .m-loading-wipe .m-loading-icon-active-path{

@@ -1,17 +1,10 @@
 // 打印主题标识,请保留出处
 (function () {
-  var style1 = 'background:#4BB596;color:#ffffff;border-radius: 2px;'
+  var style1 = 'background:#4990E2;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
-  var author = ' TMaize'
-  var github = ' https://github.com/TMaize/tmaize-blog'
-  var build = ' ' + blog.buildAt.substr(0, 4)
-  build += '/' + blog.buildAt.substr(4, 2)
-  build += '/' + blog.buildAt.substr(6, 2)
-  build += ' ' + blog.buildAt.substr(8, 2)
-  build += ':' + blog.buildAt.substr(10, 2)
-  console.info('%c Author %c' + author, style1, style2)
-  console.info('%c Build  %c' + build, style1, style2)
-  console.info('%c GitHub %c' + github, style1, style2)
+  var welconme = ' 欢迎来到澡盆家'
+  console.info('%c Hi~ %c' + welconme, style1, style2)
+  console.info('主题作者：https://github.com/TMaize/tmaize-blog')
 })()
 
 /**
@@ -69,8 +62,8 @@ blog.addClass = function (dom, className) {
  */
 blog.hasClass = function (dom, className) {
   var list = (dom.className || '').split(/\s+/)
-  for (var i = 0; i < list.length; i++) {
-    if (list[i] == className) return true
+  for (let value of list) {
+    if (value == className) return true
   }
   return false
 }

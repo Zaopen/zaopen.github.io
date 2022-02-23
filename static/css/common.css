@@ -139,7 +139,6 @@ input:-webkit-autofill {
 .footer a {
   text-decoration: underline;
   color: #000000;
-  padding: 0 4px;
   white-space: nowrap;
 }
 #to-top {

@@ -5,10 +5,10 @@ title: 澡盆家
 description: 澡盆的记事本
 keywords: 澡盆,宝宝猪,生活,日记,blog
 author: 澡盆
-footerText: '欢迎欢迎，热烈欢迎:D'
+footerText: "2018-2022 欢迎来到澡盆家:D "
 
 # 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
+permalink: /res/:year/:month/:day/:title.html
 kramdown:
   auto_ids: true
   input: GFM
@@ -29,13 +29,11 @@ baseurl: ''
 menu:
   - title: 澡盆家
     url: /
-  - title: 归类
+  - title: 分类
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
-  # - title: 友链
-  #   url: /pages/links.html
-  - title: 留言
+  - title: 留言版
     url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
@@ -49,8 +47,3 @@ extAdsense: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: false
-
-# 友情链接
-# links:
-#   - title: 
-#     url: 

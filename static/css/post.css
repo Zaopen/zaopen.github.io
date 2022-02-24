@@ -25,13 +25,13 @@
   font-size: 17px;
   position: relative;
 }
-.page-post .post h1::before,
+/* .page-post .post h1::before,
 .page-post .post h2::before {
   content: '#';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-}
+} */
 .page-post h3,
 .page-post h4,
 .page-post h5,
@@ -73,7 +73,7 @@
   height: auto;
   box-shadow: 0 0 5px #e0e0e0;
 }
-.page-post img[alt='line'] {
+.page-post img[alt='inline'] {
   display: inline-block;
   vertical-align: middle;
   background-color: transparent;

@@ -21,7 +21,7 @@ function loadAllPostData(callback) {
       callback ? callback(data) : ''
     },
     function () {
-      console.error('全文检索数据加载失败...')
+      console.error('文章数据加载失败了 w(ﾟДﾟ)w')
       callback ? callback(null) : ''
     }
   )

@@ -135,6 +135,7 @@ input:-webkit-autofill {
 .footer {
   padding: 15px 0;
   font-size: 14px;
+  opacity: 0.5;
 }
 .footer a {
   text-decoration: underline;

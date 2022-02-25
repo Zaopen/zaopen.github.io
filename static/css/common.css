@@ -145,7 +145,7 @@ input:-webkit-autofill {
   position: fixed;
   z-index: 99;
   right: 16px;
-  bottom: 12px;
+  bottom: 50px;
   width: 34px;
   height: 34px;
   cursor: pointer;
@@ -153,8 +153,7 @@ input:-webkit-autofill {
   background-color: #000000;
   opacity: 0.45;
   overflow: hidden;
-  transform: translateY(66px);
-  transition: transform 200ms ease-in-out;
+  transform: translateY(86px);
 }
 #to-top.show {
   transform: translateY(0);

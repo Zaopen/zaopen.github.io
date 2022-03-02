@@ -39,7 +39,7 @@ menu:
     url: /pages/about.html
 
 # 每页显示文章数
-paginate: 5
+# paginate: 5
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true

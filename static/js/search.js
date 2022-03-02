@@ -56,8 +56,8 @@ blog.addLoadEvent(function () {
   function parseTitle() {
     let arr = []
     let doms = document.querySelectorAll('.list-search .title')
-    for (let value of doms) {
-      arr.push(value.innerHTML)
+    for (let i = 0; i < doms.length; i++) {
+      arr.push(doms[i].innerHTML)
     }
     return arr
   }
@@ -67,8 +67,8 @@ blog.addLoadEvent(function () {
     let root = document.createElement('div')
     root.innerHTML = data
     let doms = root.querySelectorAll('li')
-    for (let value of doms) {
-      arr.push(value.innerHTML)
+    for (let i = 0; i < doms.length; i++) {
+      arr.push(doms[i].innerHTML)
     }
     return arr
   }

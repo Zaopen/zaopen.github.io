@@ -2,8 +2,8 @@
 (function () {
   var style1 = 'background:#4990E2;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
-  var welconme = ' 欢迎来到澡盆家'
-  console.info('%c Hi~ %c' + welconme, style1, style2)
+  var words = ' 欢迎来到澡盆家'
+  console.info('%c Hi~ %c' + words, style1, style2)
   console.info('主题来源：https://github.com/TMaize/tmaize-blog/')
 })()
 
@@ -62,8 +62,8 @@ blog.addClass = function (dom, className) {
  */
 blog.hasClass = function (dom, className) {
   var list = (dom.className || '').split(/\s+/)
-  for (let value of list) {
-    if (value == className) return true
+  for (var i = 0; i < list.length; i++) {
+    if (list[i] == className) return true
   }
   return false
 }
@@ -77,8 +77,8 @@ blog.removeClass = function (dom, className) {
   if (blog.hasClass(dom, className)) {
     var list = (dom.className || '').split(/\s+/)
     var newName = ''
-    for (let value of list) {
-      if (value != className) newName = newName + ' ' + value
+    for (var i = 0; i < list.length; i++) {
+      if (list[i] != className) newName = newName + ' ' + list[i]
     }
     dom.className = blog.trim(newName)
   }
@@ -191,8 +191,8 @@ blog.initClickEffect = function (textArr) {
     dom.style.position = 'fixed'
     dom.style.fontSize = '12px'
     dom.style.whiteSpace = 'nowrap'
-    dom.style.userSelect = 'none'
     dom.style.webkitUserSelect = 'none'
+    dom.style.userSelect = 'none'
     dom.style.opacity = 0
     dom.style.transform = 'translateY(0)'
     dom.style.webkitTransform = 'translateY(0)'
@@ -238,8 +238,8 @@ blog.addLoadEvent(function () {
     return
   }
   var tables = document.getElementsByTagName('table')
-  for (let value of tables) {
-    var table = value
+  for (var i = 0; i < tables.length; i++) {
+    var table = tables[i]
     var elem = document.createElement('div')
     elem.setAttribute('class', 'table-container')
     table.parentNode.insertBefore(elem, table)
@@ -318,8 +318,8 @@ blog.addLoadEvent(function () {
 
 //   window.addEventListener('resize', toCenter)
 
-//   for (let value of imgArr) {
-//     value.addEventListener('click', imgClickEvent, true)
+//   for (let i = 0; i < imgArr.length; i++) {
+//     imgArr[i].addEventListener('click', imgClickEvent, true)
 //   }
 
 //   function prevent(ev) {

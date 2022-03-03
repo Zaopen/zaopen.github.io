@@ -13,9 +13,6 @@ html.dark ::-webkit-scrollbar-thumb {
 html.dark img {
   filter: brightness(0.8) contrast(1.2);
 }
-html.dark .footer a {
-  color: #58a6ff;
-}
 html.dark .list-category div a {
   border-bottom: 1px solid #8b949e;
 }
@@ -37,10 +34,6 @@ html.dark .page-post img {
 html.dark .page-post code {
   background-color: rgba(240, 246, 252, 0.15);
   color: #c9d1d9;
-}
-html.dark .page-post a {
-  color: #58a6ff;
-  border-bottom: 1px solid #58a6ff;
 }
 html.dark .page-post strong,
 html.dark .page-post b {

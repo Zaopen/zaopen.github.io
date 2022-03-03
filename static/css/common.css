@@ -105,7 +105,7 @@ input:-webkit-autofill {
   transform: scaleX(1);
 }
 .header {
-  padding: 40px 0;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -135,11 +135,10 @@ input:-webkit-autofill {
 .footer {
   padding: 15px 0;
   font-size: 14px;
-  opacity: 0.5;
+  color: #999999;
 }
 .footer a {
   text-decoration: underline;
-  color: #000000;
   white-space: nowrap;
 }
 #to-top {

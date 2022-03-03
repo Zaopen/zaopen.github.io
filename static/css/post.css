@@ -11,6 +11,7 @@
 .page-post .subtitle {
   font-size: 12px;
   color: #999999;
+  margin-bottom: 20px;
 }
 .page-post .post > * {
   margin: 10px 0;
@@ -21,17 +22,16 @@
 }
 .page-post .post h1,
 .page-post .post h2 {
-  /* font-weight: normal; */
   font-size: 17px;
+  margin-top: 20px;
   position: relative;
 }
-/* .page-post .post h1::before,
+.page-post .post h1::before,
 .page-post .post h2::before {
-  content: '#';
-  top: 0;
-  font-weight: bold;
+  content: '';
   padding-right: 6px;
-} */
+  border-left: solid #09925E;
+}
 .page-post h3,
 .page-post h4,
 .page-post h5,
@@ -44,11 +44,8 @@
   background-color: #f7f7f7;
   padding: 9px 9px 9px 15px;
 }
-
 .page-post a {
-  color: #000000;
-  margin: 0 2px;
-  border-bottom: 1px solid #000000;
+  text-decoration: underline;
 }
 .page-post strong,
 .page-post b {

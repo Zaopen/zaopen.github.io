@@ -2,8 +2,8 @@
 (function () {
   var style1 = 'background:#4990E2;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
-  var words = ' 欢迎来到澡盆家'
-  console.info('%c Hi~ %c' + words, style1, style2)
+  var hello = ' 欢迎来到澡盆家'
+  console.info('%c Hi~ %c' + hello, style1, style2)
   console.info('主题来源：https://github.com/TMaize/tmaize-blog/')
 })()
 

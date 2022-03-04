@@ -25,7 +25,9 @@ html.dark .list-post li .categories a {
 html.dark .hover-underline:after {
   background-color: #c9d1d9;
 }
-html.dark .page-post .title {
+html.dark .page-post .title,
+html.dark .page-post strong,
+html.dark .page-post b {
   color: #ffffff;
 }
 html.dark .page-post img {
@@ -35,10 +37,10 @@ html.dark .page-post code {
   background-color: rgba(240, 246, 252, 0.15);
   color: #c9d1d9;
 }
-html.dark .page-post strong,
+/* html.dark .page-post strong,
 html.dark .page-post b {
   color: #ffffff;
-}
+} */
 html.dark .page-post blockquote {
   border-left: 3px solid #3b434b;
   background-color: rgba(59, 67, 75, 0.15);
@@ -75,8 +77,8 @@ html.dark .page-search .list-search .content {
 }
 html.dark #to-top {
   opacity: 0.6;
-  background-color: #4c4c4c;
+  background-color: #09925E;
 }
 html.dark #to-top > span:last-child {
-  background-color: #4c4c4c;
+  background-color: #09925E;
 }

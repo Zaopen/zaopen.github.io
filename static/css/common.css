@@ -127,13 +127,13 @@ input:-webkit-autofill {
 }
 .header .menu a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 9px;
   white-space: nowrap;
   user-select: auto;
 }
 .footer {
-  padding: 15px 0;
+  padding: 15px 0 35px 0;
   font-size: 14px;
   color: #999999;
 }
@@ -145,33 +145,33 @@ input:-webkit-autofill {
   position: fixed;
   z-index: 99;
   right: 16px;
-  bottom: 50px;
+  bottom: 100px;
   width: 34px;
   height: 34px;
   cursor: pointer;
   border-radius: 10%;
-  background-color: #000000;
+  background-color: #09925E;
   opacity: 0.45;
   overflow: hidden;
-  transform: translateY(86px);
+  transform: translateY(150px);
 }
 #to-top.show {
   transform: translateY(0);
 }
 #to-top > span {
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   position: absolute;
   left: 50%;
-  top: 13px;
+  top: 14px;
   transform: translateX(-50%) rotate(45deg);
 }
 #to-top > span:first-child {
   background-color: #ffffff;
 }
 #to-top > span:last-child {
-  background-color: #000000;
+  background-color: #09925E;
   transform: translate(-50%, 16%) rotate(45deg);
 }
 @media screen and (max-width: 560px) {

@@ -1,12 +1,12 @@
 // 加载所有文章数据，优先使用localStorage缓存
 function loadAllPostData(callback) {
   if (localStorage.db && localStorage.dbVersion == blog.buildAt) {
-    console.log('loadAllPostData from localStorage')
+    console.log('通过localStorage加载全部文章数据...')
     callback ? callback(localStorage.db) : ''
     return
   }
 
-  console.log('loadAllPostData from ajax')
+  console.log('通过AJAX加载全部文章数据...')
   localStorage.removeItem('dbVersion')
   localStorage.removeItem('db')
 
@@ -46,7 +46,7 @@ blog.addLoadEvent(function () {
   let loadingDOM = document.querySelector('.page-search h1 img')
   loadingDOM.style.opacity = 1
   loadAllPostData(function (data) {
-    console.log('loadAllPostData done')
+    console.log('全部文章数据加载完毕。')
     loadingDOM.style.opacity = 0
     titles = parseTitle()
     contents = parseContent(data)
